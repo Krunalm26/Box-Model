@@ -1,0 +1,117 @@
+nav {
+  
+  padding: 20px;
+  line-height: 10px;
+  margin-top: -18px;
+}
+
+nav ul li a:hover {
+background-color: rgb(241, 93, 7);
+border-radius: 2px;
+color: rgb(46, 42, 42);
+}
+
+nav ul {
+  list-style-type:none;
+  margin:10;
+  padding:10;
+  display: flex;
+  justify-content:right;
+  line spacing: 15px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color:rgb(31, 28, 28);
+  text-decoration: none;
+}
+
+
+
+.top-tile {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(211, 39, 39, 0.897);
+  margin-bottom: 20px;
+  display:inline-block
+}
+
+
+
+h1, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+.box {
+    width:100%;
+    border-color: black;
+    background position: relative;
+    margin-bottom:30px;
+    max-width: 100%;
+    
+}
+
+.main{
+  margin: 25px; /* Adjust margin as needed */
+  box-shadow: 0 0 5px rgba(27, 26, 26, 0.897);
+  border-radius: 1px;
+  border-color: rgb(211, 50, 50);
+}
+.tile {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    margin: 25px; /* Adjust margin as needed */
+    box-shadow: 0 0 5px rgba(211, 39, 39, 0.897);
+    border-radius: 1px;
+    border-color: rgb(211, 50, 50);
+    background-position: center;
+    vertical-align: top;
+    background-size: fixed;
+  }
+  
+  .tile img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .tile p.description {
+    padding: 15px;
+  }
+  .tile 2{
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin as needed */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .tiles {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    margin: 15px; /* Adjust margin as needed */
+    box-shadow: 0 0 5px rgba(211, 39, 39, 0.897);
+    border-radius: 1px;
+    border-color: rgb(211, 50, 50);
+    background-position: center;
+    vertical-align: top;
+    background-size: fixed;
+  }
+  .tiles img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .tiles p.description {
+    padding: 15px;
+ 
